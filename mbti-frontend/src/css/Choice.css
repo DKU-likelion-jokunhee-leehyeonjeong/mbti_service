@@ -1,0 +1,24 @@
+.choice_button {
+  border: none;
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 70px;
+  color: white;
+}
+
+.choice_button:hover {
+  background-color: rgb(0, 100, 250);
+}
+
+.Description {
+  background-color: rgb(206, 206, 206);
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+}

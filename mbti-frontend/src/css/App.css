@@ -1,0 +1,49 @@
+.homeBody {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_to_admin {
+  text-decoration-line: none;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 20px;
+  height: 20px;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+}
+
+.admin_to_home {
+  text-decoration-line: none;
+  color: white;
+  margin: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.admin_to_home:hover {
+  background-color: rgb(0, 100, 250);
+  color: white;
+  border-color: white;
+}
+
+.home_to_admin:hover {
+  background-color: rgb(0, 100, 250);
+  color: white;
+  border-color: white;
+}
